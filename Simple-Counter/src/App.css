@@ -1,0 +1,23 @@
+body {
+  background-color: azure;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2,
+h1 {
+  text-align: center;
+}
+
+.increment,
+.decrement {
+  border: 2px solid gray;
+  border-radius: 20%;
+  width: 100px;
+  height: 100px;
+  margin-right: 6px;
+  font-size: 30px;
+}
